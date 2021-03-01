@@ -1,4 +1,6 @@
 import React from "react"
+import { NavBar } from "./nav/NavBar"
+import { ApplicationViews } from "./ApplicationViews"
 import "./kennel.css"
 import {AnimalCard} from "./animal/AnimalCard"
 import {Location} from "./location/Location"
@@ -10,7 +12,11 @@ import { PropsAndState } from "./PropsAndState";
 // Onle this module "Kennel.js" is sent to index.js so that the entire app will be rendered to the dom
 
 export const Kennel = () => (
+
     <>
+    <NavBar />
+    <ApplicationViews />
+    
         <h2>Nashville Kennels</h2>
         <small>Loving care when you're not there.</small>
 
@@ -50,10 +56,3 @@ export const Kennel = () => (
         
     </>
 )
-
-
-
-{/* <address>
-    <div>Visit Us at the Nashville North Location</div>
-    <div>500 Puppy Way</div>
-</address> */}
