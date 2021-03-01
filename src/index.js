@@ -1,11 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import { BrowserRouter as Router } from "react-router-dom"
 import { Kennel } from "./components/kennel.js"
 // import { AnimalCard } from "./components/animal/AnimalCard.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Kennel />
+    <Router>
+      <Kennel />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
