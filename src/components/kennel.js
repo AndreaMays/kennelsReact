@@ -19,6 +19,8 @@ export const Kennel = () => (
             <AnimalCard />
             <AnimalCard />
             <AnimalCard /> 
+            <AnimalCard /> 
+            <AnimalCard /> 
         </article>
 
         <h2>Employees</h2>
@@ -36,6 +38,8 @@ export const Kennel = () => (
 
         <h2>Customers</h2>
         <article className="customers">
+            <Customer />
+            <Customer />
             <Customer />
             <Customer />
             <Customer />
