@@ -4,6 +4,7 @@ import {AnimalCard} from "./animal/AnimalCard"
 import {Location} from "./location/Location"
 import {Employee} from "./empoloyee/Employee"
 import {Customer} from "./customer/Customer"
+import { PropsAndState } from "./PropsAndState";
 // Lines 4 - 6 is importing the exact function from each module
 // Lines 19-20 (and other lines like it) are importing the information from the exact function of each module and printing that to the dom
 // Onle this module "Kennel.js" is sent to index.js so that the entire app will be rendered to the dom
@@ -13,7 +14,7 @@ export const Kennel = () => (
         <h2>Nashville Kennels</h2>
         <small>Loving care when you're not there.</small>
 
-
+        <PropsAndState yourName="Drea" />
         <h2>Animals</h2>
         <article className="animals">
             <AnimalCard />
@@ -46,6 +47,7 @@ export const Kennel = () => (
             <Customer />
         </article>
 
+        
     </>
 )
 
