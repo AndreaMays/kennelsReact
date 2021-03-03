@@ -8,14 +8,14 @@
             "locationId": 2
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "Doodles",
             "breed": "Poodle",
             "customerId": 1,
             "locationId": 2
         },
         {
-            "id": 1,
+            "id": 3,
             "name": "Doodles",
             "breed": "Poodle",
             "customerId": 1,
@@ -34,25 +34,25 @@
             "id": 1,
             "name": "Yas Coleman",
             "address": "1234 Abc Drive",
-            "location": "Nashville South Kennel"
+            "locationId": 1
         },
         {
             "id": 2,
             "name": "Jayse Shipman",
             "address": "5687 Flashman Court",
-            "location": "Nashville South Kennel"
+            "locationId": 2
         },
         {
             "id": 3,
             "name": "Whitney Houston",
             "address": "8000 Badass Way",
-            "location": "Nashville South Kennel"
+            "locationId": 1
         },
         {
             "id": 4,
             "name": "Shelea Frazier",
             "address": "900 Singers Park",
-            "location": "Nashville North Kennel"
+            "locationId": 2
         }
     ],
     "locations": [
