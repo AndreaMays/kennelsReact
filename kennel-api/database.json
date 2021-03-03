@@ -6,6 +6,20 @@
             "breed": "Poodle",
             "customerId": 1,
             "locationId": 2
+        },
+        {
+            "id": 1,
+            "name": "Doodles",
+            "breed": "Poodle",
+            "customerId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 1,
+            "name": "Doodles",
+            "breed": "Poodle",
+            "customerId": 1,
+            "locationId": 2
         }
     ],
     "customers": [
@@ -15,7 +29,32 @@
             "address": "7002 Chestnut Ct"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Yas Coleman",
+            "address": "1234 Abc Drive",
+            "location": "Nashville South Kennel"
+        },
+        {
+            "id": 2,
+            "name": "Jayse Shipman",
+            "address": "5687 Flashman Court",
+            "location": "Nashville South Kennel"
+        },
+        {
+            "id": 3,
+            "name": "Whitney Houston",
+            "address": "8000 Badass Way",
+            "location": "Nashville South Kennel"
+        },
+        {
+            "id": 4,
+            "name": "Shelea Frazier",
+            "address": "900 Singers Park",
+            "location": "Nashville North Kennel"
+        }
+    ],
     "locations": [
         {
             "id": 1,

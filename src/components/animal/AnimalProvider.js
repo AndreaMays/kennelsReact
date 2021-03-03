@@ -10,7 +10,7 @@ export const AnimalProvider = (props) => {
     const getAnimals = () => {
         return fetch("http://localhost:8088/animals?_expand=location")
         .then(res => res.json())
-        .then(setAnimals)
+        .then(animalsData => setAnimals(animalsData))
     }
 
     const addAnimal = animalObj => {
@@ -38,30 +38,3 @@ export const AnimalProvider = (props) => {
         </AnimalContext.Provider>
     )
 }
-
-const [animals, setAnimals] = useState([])
-
-const getAnimals = () => {
-    return fetch("http://localhost:8088/animals?_expand=location")
-    .then(res => res.json())
-    .then(setAnimals)
-}
-
-const addAnimal = animalObj => {
-    return fetch("http://localhost:8088/animals", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(animalObj)
-    })
-    .then(getAnimals)
-}
-
-return (
-    <AnimalContext.Provider value={{
-        animals, getAnimals, addAnimal
-    }}>
-        {props.children}
-    </AnimalContext.Provider>
-)
