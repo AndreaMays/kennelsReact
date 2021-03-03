@@ -3,7 +3,12 @@ import { Route } from "react-router-dom"
 import { Home } from "./Home"
 import { AnimalList } from "./animal/AnimalList"
 import { AnimalProvider } from "./animal/AnimalProvider"
-import { Customer } from "./customer/Customer"
+import { CustomerList } from "./customer/CustomerList"
+import { CustomerProvider } from "./customer/CustomerProvider"
+import {EmployeeList} from "./empoloyee/EmployeeList"
+import {EmployeeProvider} from "./empoloyee/EmployeeProvider"
+import {LocationList} from "./location/LocationList"
+import {LocationProvider} from "./location/LocationProvider"
 
 export const ApplicationViews = () => {
     return (
@@ -21,23 +26,23 @@ export const ApplicationViews = () => {
             </Route>
 
             {/* Render the loctation list when http://localhost:3000/animals */}
-            <Route path="/locations">
-                <LocationProvider>
-                    <Location />
-                </LocationProvider>
-            </Route>
+                <Route path="/locations">
+                    <LocationProvider>
+                        <LocationList />
+                    </LocationProvider>
+                </Route>
 
-            {/* Render the customer list when http://localhost:3000/animals */}
-            <Route path="/customers">
+            {/* Render the customer list when http://localhost:3000/animals */} 
+             <Route path="/customers">
                 <CustomerProvider>
-                    <Customer />
+                    <CustomerList />
                 </CustomerProvider>
             </Route>
 
             {/* Render the employee list when http://localhost:3000/animals */}
-            <Route path="/employees">
+             <Route path="/employees">
                 <EmployeeProvider>
-                    <Employee />
+                    <EmployeeList />
                 </EmployeeProvider>
             </Route>
 

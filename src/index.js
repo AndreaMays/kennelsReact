@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { BrowserRouter as Router } from "react-router-dom"
 import { Kennel } from "./components/kennel.js"
+// import reportWebVitals from './reportWebVitals';
 // import { AnimalCard } from "./components/animal/AnimalCard.js";
 
 ReactDOM.render(
@@ -20,7 +21,6 @@ ReactDOM.render(
 // import ReactDOM from 'react-dom';
 // import './index.css';
 // import App from './App';
-// import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
 //   <React.StrictMode>
