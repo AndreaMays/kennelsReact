@@ -9,24 +9,53 @@
         },
         {
             "id": 2,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
+            "name": "Husky",
+            "breed": "Alaskan Huskie",
+            "customerId": 2,
             "locationId": 2
         },
         {
             "id": 3,
-            "name": "Doodles",
-            "breed": "Poodle",
+            "name": "Slim",
+            "breed": "Pit Bull",
             "customerId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "name": "Narky",
+            "breed": "Golden Doodle",
+            "customerId": 3,
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "name": "Hulk Hogan",
+            "breed": "Cane Corso",
+            "customerId": 4,
             "locationId": 2
         }
     ],
     "customers": [
         {
             "id": 1,
-            "name": "Hannah Hall",
+            "name": "Al Roker",
             "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 2,
+            "name": "Whitney Houston",
+            "address": "80 Queens Place"
+        },
+        {
+            "id": 3,
+            "name": "Shelea Frazier",
+            "address": "9025 Singers Pk Drive"
+        },
+        {
+            "id": 4,
+            "name": "Luther Vandross",
+            "address": "1000 King Road"
         }
     ],
     "employees": [
@@ -44,14 +73,14 @@
         },
         {
             "id": 3,
-            "name": "Whitney Houston",
+            "name": "LaLa Herman",
             "address": "8000 Badass Way",
             "locationId": 1
         },
         {
             "id": 4,
-            "name": "Shelea Frazier",
-            "address": "900 Singers Park",
+            "name": "Lacey Sittrell",
+            "address": "900 Coders Alley",
             "locationId": 2
         }
     ],

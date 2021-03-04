@@ -19,6 +19,7 @@ export const ApplicationViews = () => {
             </Route>
 
             {/* Render the animal list when http://localhost:3000/animals */}
+            <h2>Animals</h2>
             <Route path="/animals">
                 <AnimalProvider>
                     <AnimalList />
@@ -26,6 +27,7 @@ export const ApplicationViews = () => {
             </Route>
 
             {/* Render the loctation list when http://localhost:3000/animals */}
+            <h2>Locations</h2>
                 <Route path="/locations">
                     <LocationProvider>
                         <LocationList />
@@ -33,6 +35,7 @@ export const ApplicationViews = () => {
                 </Route>
 
             {/* Render the customer list when http://localhost:3000/animals */} 
+            <h2>Customers</h2>
              <Route path="/customers">
                 <CustomerProvider>
                     <CustomerList />
@@ -40,6 +43,7 @@ export const ApplicationViews = () => {
             </Route>
 
             {/* Render the employee list when http://localhost:3000/animals */}
+            <h2>Employees</h2>
              <Route path="/employees">
                 <EmployeeProvider>
                     <EmployeeList />

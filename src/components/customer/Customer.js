@@ -1,11 +1,11 @@
 import React from "react"
 import "./Customer.css"
 
-export const Customer = () => (
+export const Customer = ({customer}) => (
  
     <customer class="customer">
-        <div>Hannah Hall</div>
-        <div>Address: 100 Infinity Way</div>
+        <div>Name: {customer.name}</div>
+        <div>Address: {customer.address}</div>
     </customer>
 
 )
