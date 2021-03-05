@@ -1,7 +1,10 @@
-import React from "react"
-import { NavBar } from "./nav/NavBar"
-import { ApplicationViews } from "./ApplicationViews"
-import "./kennel.css"
+import React from "react";
+import { Route, Redirect } from "react-router-dom";
+import { ApplicationViews } from "./ApplicationViews";
+import { NavBar } from "./nav/NavBar";
+import { Login } from "./auth/Login";
+import { Register } from "./auth/Register";
+import "./kennel.css";
 // import {Location} from "./location/Location"
 // import {EmployeeList} from "./empoloyee/EmployeeList"
 // import {EmployeeProvider} from "./empoloyee/EmployeeProvider"
@@ -15,53 +18,27 @@ import "./kennel.css"
 // Onle this module "Kennel.js" is sent to index.js so that the entire app will be rendered to the dom
 
 export const Kennel = () => (
-
     <>
-    <NavBar />
-    <ApplicationViews />
-    
-        {/* <h2>Nashville Kennels</h2>
-        <small>Loving care when you're not there.</small> */}
-
-        {/* <PropsAndState yourName="Drea" />
-        <h2>Animals</h2>
-        <article className="animals">
-        <AnimalProvider>
-            <AnimalList/>
-            {/* <AnimalCard />
-            <AnimalCard />
-            <AnimalCard /> 
-            <AnimalCard /> 
-            <AnimalCard />  */}
-        {/* </AnimalProvider> */}
-        {/* </article> */}
-
-        {/* // <h2>Employees</h2>
-        // <article className="employees">
-        // <EmployeeProvider>  */}
-            {/* {/* <Employee />
-            <Employee />
-        <Employee /> */}
-            {/* <EmployeeList />
-        </EmployeeProvider>
-        </article> */}
-
-        {/* <h2>Locations</h2>
-        <article className="locations">
-            <Location />
-            <Location />
-         </article> */}
-
-        {/* <h2>Customers</h2>
-        <article className="customers">
-            <Customer />
-            <Customer />
-            <Customer />
-            <Customer />
-            <Customer />
-            <Customer />
-        </article> */}
-
-        
+      <Route
+        render={() => {
+          if (localStorage.getItem("kennel_customer")) {
+            return (
+              <>
+                <NavBar />
+                <ApplicationViews />
+              </>
+            );
+          } else {
+            return <Redirect to="/login" />;
+          }
+        }}
+      />
+  
+      <Route path="/login">
+        <Login />
+      </Route>
+      <Route path="/register">
+        <Register />
+      </Route>
     </>
-)
+  );
