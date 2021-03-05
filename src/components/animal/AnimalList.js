@@ -18,8 +18,8 @@ export const AnimalList = () => {
   //useEffect - reach out to the world for something
   useEffect(() => {
     console.log("AnimalList: useEffect - getAnimals")
-    getAnimals()
-    .then(getCustomers)
+    getCustomers()
+    .then(getLocations)
     .then(getAnimals)
   }, [])
 

@@ -71,10 +71,12 @@ const handleControlledInputChange = (event) => {
         //     const newAnimal = {
 
         //     }
-        // }
+        }
         }
       
+      
       return (
+          
         <form className="animalForm">
             <h2 className="animalForm__title">New Animal</h2>
             <fieldset>
@@ -120,6 +122,7 @@ const handleControlledInputChange = (event) => {
               Save Animal
             </button>
         </form>
+        
       )
     }
-}    
+  
