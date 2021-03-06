@@ -1,5 +1,6 @@
 import React from "react";
 import { PropsAndState } from './PropsAndState'
+import "./Home.css"
 
 export const Home = () => (
     <>
@@ -11,5 +12,7 @@ export const Home = () => (
             <div>500 Puppy Way</div>
         </address>
         <PropsAndState yourName={"Brenda"} />
+
+        <img src="/images/pomsky-780x514.jpg" alt="cute puppy looking at me"/>
     </>
 )

@@ -1,99 +1,106 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Husky",
-            "breed": "Alaskan Huskie",
-            "customerId": 2,
-            "locationId": 2
-        },
-        {
-            "id": 3,
-            "name": "Slim",
-            "breed": "Pit Bull",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Narky",
-            "breed": "Golden Doodle",
-            "customerId": 3,
-            "locationId": 2
-        },
-        {
-            "id": 5,
-            "name": "Hulk Hogan",
-            "breed": "Cane Corso",
-            "customerId": 4,
-            "locationId": 2
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Al Roker",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 2,
-            "name": "Whitney Houston",
-            "address": "80 Queens Place"
-        },
-        {
-            "id": 3,
-            "name": "Shelea Frazier",
-            "address": "9025 Singers Pk Drive"
-        },
-        {
-            "id": 4,
-            "name": "Luther Vandross",
-            "address": "1000 King Road"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Yas Coleman",
-            "address": "1234 Abc Drive",
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Jayse Shipman",
-            "address": "5687 Flashman Court",
-            "locationId": 2
-        },
-        {
-            "id": 3,
-            "name": "LaLa Herman",
-            "address": "8000 Badass Way",
-            "locationId": 1
-        },
-        {
-            "id": 4,
-            "name": "Lacey Sittrell",
-            "address": "900 Coders Alley",
-            "locationId": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Husky",
+      "breed": "Alaskan Huskie",
+      "customerId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Slim",
+      "breed": "Pit Bull",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Narky",
+      "breed": "Golden Doodle",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Hulk Hogan",
+      "breed": "Cane Corso",
+      "customerId": 4,
+      "locationId": 2
+    },
+    {
+      "name": "Rex",
+      "breed": "German Shepard",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Al Roker",
+      "address": "7002 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Whitney Houston",
+      "address": "80 Queens Place"
+    },
+    {
+      "id": 3,
+      "name": "Shelea Frazier",
+      "address": "9025 Singers Pk Drive"
+    },
+    {
+      "id": 4,
+      "name": "Luther Vandross",
+      "address": "1000 King Road"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Yas Coleman",
+      "address": "1234 Abc Drive",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jayse Shipman",
+      "address": "5687 Flashman Court",
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "LaLa Herman",
+      "address": "8000 Badass Way",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Lacey Sittrell",
+      "address": "900 Coders Alley",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
