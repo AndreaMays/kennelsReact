@@ -1,12 +1,30 @@
 .animals {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .animal {
       flex-basis: 28%;
       margin: 1em;
       padding: 1em;
-      border: 1px solid goldenrod;
+      border: 1px solid blue;
   }
+
+  .addButton {
+      height: 60px;
+
+  }
+
+  img {
+    height: 150px;
+    position: absolute;
+    top: 160px;
+    left: 8px;
+}
+
+.animalDetail{
+    font-size: medium;
+    
+    
+}
